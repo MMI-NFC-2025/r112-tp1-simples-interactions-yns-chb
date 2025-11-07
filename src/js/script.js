@@ -11,3 +11,7 @@ collH2.forEach((elm)=>{
     });
 });
     
+const enRougeSuiteAClick = document.querySelector ("#en-rouge-suite-a-click");
+enRougeSuiteAClick.addEventListener("click", (evet)=>{
+    enRougeSuiteAClick.style.color = "red"
+});
